@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rony Ahmmed EdTech-BDU">
+    <title>Time Count for Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cover_area">  
+        <div class="form">
+            <label style="font-size: 25px;" for="timeInput">Select the final time:</label>
+            <br>
+            <input type="datetime-local" id="timeInput">
+            <button onclick="startCountdown()">Start Countdown</button>
+            <button><a href="">Restart</a></button>
+        </div>
+
+        <div class="logo">
+            <img src="https://bdu.ac.bd/assets/images/logo/logo1.png" alt="BDU">
+			<h1><a href="#">BANGABANDHU DIGITAL UNIVERSITY</a></h1>
+        </div>
+         
+		
+		<!-- middle area starts -->
+        <div class="middle">
+
+			<!-- Time count down area starts -->
+        	<div class="time" id="time">
+          		<h1>Remaining Time</h1>
+                <h3 id="timeC"></h3>
+				 
+				<div class="time_box">
+					<div class="t_number" id="hours"></div>
+					<div class="t_unit">hours</div>
+				</div>
+				<div class="time_box">
+					<div class="t_number" id="minutes"></div>
+					<div class="t_unit">minutes</div>
+				</div>
+				<div class="time_box">
+					<div class="t_number" id="seconds"></div>
+					<div class="t_unit">seconds</div>
+				</div>  
+			</div>
+			<!-- Time count down area ends -->
+
+			 
+
+			<!-- running text area starts -->
+			<div class="text_run">
+				<marquee direction="left" style="font-size:3rem; color:magenta">
+					BANGABANDHU SHEIKH MUJIBUR RAHMAN DIGITAL UNIVERSITY, BANGLADESH
+				</marquee>
+			</div>
+			<!-- running tetx area ends -->
+
+    	</div> 
+		<!-- middle area ends -->
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

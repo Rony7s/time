@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+.cover_area {
+    height: 100vh;
+    width: 100%;
+    background: #FFF;
+    background-position: center;
+    background-size: cover;
+    color: blue;
+}
+
+.form {
+    display: block;
+    padding: 10px;
+    width: 600px;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.logo h1 a {
+    font-size: 1em;
+    padding: 0.1em;
+    color: red;
+}
+
+.logo img {
+    width: 200px;
+}
+
+
+.middle {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* time box style */
+.time {
+    overflow: hidden;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+}
+
+.time h1 {
+    font-size: 7rem;
+    line-height: 7rem;
+    padding: 2rem 0;
+}
+
+#timeC {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: red;
+}
+
+.time_box {
+    width: 140px;
+    height: 140px;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: hsla(118, 56%, 91%, 0.082);
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid#ddd;
+}
+
+.time_box:hover {
+    color: green;
+    background: white;
+    border-color: green;
+}
+
+.t_number {
+    font-size: 6rem;
+    line-height: 5rem;
+}
+
+.t_unit {
+    font-size: 2rem;
+    line-height: 3rem;
+}
